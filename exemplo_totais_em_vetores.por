@@ -1,6 +1,6 @@
 programa
-{ 
-	inclua biblioteca Util --> u
+{ 
+	inclua biblioteca Util --> u
 	inclua biblioteca Matematica --> m
 	inclua biblioteca Tipos --> t
 	funcao inicio()
@@ -18,7 +18,7 @@ programa
 		escreva("FIM!\n")
 
 		inteiro s = 0
-		real m = 0
+		real m = 0.0
 		
 		para (inteiro p = 0; p < u.numero_elementos(vet); p++) {
 			s += vet[p]
@@ -43,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 908; 
+ * @POSICAO-CURSOR = 432; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {vet, 8, 10, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
