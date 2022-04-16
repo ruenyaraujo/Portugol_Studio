@@ -21,6 +21,7 @@ programa
 			escreva("Salário: R$")
 			leia(sal[p])
 		}
+		limpa()
 		escreva("\n\t LISTAGEMCOMPLETA \t")
 		escreva("\n-------------------------------------------")
 		escreva("\nNome\t\t\tSEXO\tSALÁRIO")
@@ -44,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 373; 
+ * @POSICAO-CURSOR = 497; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
