@@ -22,6 +22,7 @@ programa
 		u.aguarde(400)
 		escreva("\nMédia de idade: ", med, " anos.")
 		escreva("\nPessoas acima da média:\n")
+		
 		u.aguarde(400)
 		para(inteiro p = 0; p < u.numero_elementos(nome); p++) {
 			se (idade[p] > med) {
@@ -56,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 575; 
+ * @POSICAO-CURSOR = 578; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
